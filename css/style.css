@@ -6,6 +6,11 @@
     --dark: #181d38;
 }
 
+.fixed {
+    position: sticky;
+    top: 0;
+}
+
 .buttonfortheindex {
     padding: 1em !important;
     border-radius: 10px;
