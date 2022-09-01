@@ -1,9 +1,44 @@
 /********** Template CSS **********/
 
 :root {
-    --primary: #06BBCC;
+    --primary: #95adbe;
     --light: #F0FBFC;
-    --dark: #181d38;
+    --dark: #000066;
+}
+
+.mainimage {
+    color: #000066 !important;
+}
+
+.bgmainimage {
+    background-color: #000066 !important;
+}
+
+.mainimage2 {
+    color: #001247 !important;
+}
+
+.bgmainimage2 {
+    border: none !important;
+    background-color: #001247 !important;
+}
+
+.mainimage3 {
+    color: #809fff !important;
+}
+
+.bgmainimage3 {
+    border: none !important;
+    background-color: #809fff !important;
+}
+
+.mainimage4 {
+    color: #d2ddff !important;
+}
+
+.bgmainimage4 {
+    border: none !important;
+    background-color: #d2ddff !important;
 }
 
 .fixed {
