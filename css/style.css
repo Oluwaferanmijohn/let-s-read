@@ -6,6 +6,11 @@
     --dark: #000066;
 }
 
+.height1 {
+    width: 100% !important;
+    height: 400px !important;
+}
+
 .mainimage {
     color: #000066 !important;
 }
