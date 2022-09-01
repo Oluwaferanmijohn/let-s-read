@@ -3,6 +3,20 @@
     margin: 0;
     text-decoration: none;
     box-sizing: border-box;
+    font-family: 'Amaranth', sans-serif;
+}
+
+.main-contnr {
+    background-color: #d2ddff;
+    padding: 5em;
+    border-radius: 10px;
+}
+
+.logo-design {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 html {
@@ -40,6 +54,7 @@ input {
 .others {
     display: flex;
     align-items: baseline;
+    justify-content: center;
     text-align: center;
     margin: 20px;
 }

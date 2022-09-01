@@ -4,6 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- font source  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <!-- font source  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./login.css">
     <title>login</title>
@@ -14,36 +20,39 @@
 
     </header>
     <main>
-        <div class="login-container">
-            <div>
-                <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-                    <h2 class="mainimage2 m-0 text-primary">
+        <div class="main-contnr">
+            <div class="login-container">
+                <div class="logo-design">
+
+                    <h1>
                         LET'S READ
-                    </h2>
-                </a>
-            </div>
+                    </h1>
+                    <h2>WRITER'S LOGIN PAGE </h2>
 
-            <input type="email" name="email" placeholder="Email Address " id="email">
-            <div class="icon-container">
-                <i class="fa-solid fa-envelope"></i>
-            </div>
+                </div>
 
-            <input type="password" name="password" id="password" placeholder="password">
-            <div class="icon-container">
-                <i class="fa-solid fa-lock"></i>
+                <input type="email" name="email" placeholder="Email Address " id="email">
+                <div class="icon-container">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+
+                <input type="password" name="password" id="password" placeholder="password">
+                <div class="icon-container">
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <div class="alternative">
+                    <p>Don't you have an account?,
+                        <a href="../register/register.html">Register</a>
+                    </p>
+                </div>
             </div>
-            <div class="alternative">
-                <p>Don't you have an account?,
-                    <a href="../register/register.html">Register</a>
-                </p>
+            <div class="others">
+                <input type="checkbox" name="tick" id="tick">
+                <p>Keep me logged in.</p>
             </div>
-        </div>
-        <div class="others">
-            <input type="checkbox" name="tick" id="tick">
-            <p>Keep me logged in.</p>
-        </div>
-        <div>
-            <button id="login" type="submit"> Login</button>
+            <div>
+                <button id="login" type="submit"> Login</button>
+            </div>
         </div>
     </main>
     <footer></footer>
