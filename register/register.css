@@ -10,6 +10,7 @@
     background-color: #d2ddff;
     padding: 5em;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .logo-design {
